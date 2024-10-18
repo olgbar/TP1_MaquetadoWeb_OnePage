@@ -1,0 +1,208 @@
+body{
+    margin-top: 60px;
+}
+/* --------------------NAVBAR-------------------- */
+
+.nav-link{
+    color: #ffff;
+    margin: 0 15px;
+}
+
+.nav-link:hover {
+    color: #f28301;
+}
+
+.nav-link:focus{
+    color: #1F2336;
+}
+
+.navbar{
+    background-color: #084262;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+}
+
+
+.icon_navbar1, .icon_navbar2{
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+}
+
+@media (max-width: 991px){
+    .icon_navbar1, .icon_navbar2 {
+        display: none;
+    }
+}
+
+.icon_navbar1{
+    left: 15%;
+}
+
+.icon_navbar2{
+    right: 15%;
+}
+
+
+/* --------------------HEADER-------------------- */
+.img_header{
+    margin-bottom: 0.8%;
+}
+
+.card_header{
+    /* border-bottom-color: #f28301;
+    border-bottom-width: 0.3rem;
+    border-left-color: white;
+    border-left-width: 0.3rem;
+    border-right-width: 0.3rem; */
+    border: none;
+
+}
+
+.row_header{
+    padding-left: 12%;
+    margin-top: 0.5%;
+}
+
+.card-body{
+    padding-top: 5%;
+}
+
+.card-title{
+    
+    font-weight: 700;
+} 
+
+.card-text{
+    color: rgb(151, 151, 151);
+}
+
+
+.card{
+    border-radius: 0%;
+}
+
+/* --------------------DIVISOR-------------------- */
+
+.divisor{
+    height: 5px; /* Grosor de la línea */
+    background-color: #f28301; /* Color de la línea */
+    width: 100%; /* Ancho completo */
+}
+
+.card_group_mis_servicios{
+    width: 50%;
+}
+
+
+/* --------------------MIS HABILIDADES-------------------- */
+.mis_habilidades{
+    background-color: #F3F3F3;
+}
+
+.text_habilidades{
+    text-align: left;
+    /* padding-left: 6%; */
+}
+
+.progress-bar{
+    background-color: #f28301;
+}
+
+.progress{
+    background-color: #2D394B;
+}
+
+/* --------------------MIS SERVICIOS------------------- */
+
+.mis_servicios{
+    background-color: #2D394B;
+    /* padding-top: 5%;
+    padding-left: 8%; */
+}
+
+.mis_servicios_color1{
+    color: #F37043;
+}
+
+.mis_servicios_color2{
+    color: #ffff;
+}
+
+.card_mis_servicios{
+    height: 100%;
+    padding: 15%;
+    text-align: center;
+}
+
+/* --------------------TRABAJOS RECIENTES-------------------- */
+.trabajo_reciente{
+    background-color: #F3F3F3;
+}
+
+.trabajo_reciente_color1{
+    color: #F37043;
+}
+
+.trabajo_reciente_color2{
+    color: #084262;
+}
+
+
+.texto_fecha{
+    margin-bottom: 0%;
+}
+
+/* --------------------CONTACTAME-------------------- */
+.contactame{
+    background-color: #1F2336;
+}
+
+.card_contactame{
+    text-align: center;
+    padding: 10%;
+    border-radius: 2%;
+}
+
+.boton_submit{
+    padding: 2%;
+    justify-items: left;
+    width: 40%;
+    background-color: #f28301;
+    border-color: #f28301;
+}
+
+.contactame_texto{
+    color: #ffff;
+    justify-content: left;
+}
+
+dt{
+    font-weight: normal;
+}
+
+dd{
+    font-weight: bold;
+}
+
+.div_contactame_texto{
+    padding-left: 10%;
+}
+
+/* --------------------REDES-------------------- */
+
+.icon_red_social{
+    width: 60px;
+}
+
+.icon_github{
+    border-radius: 50%;
+}
+
+.div_mi_nombre{
+    text-align: center;
+}
